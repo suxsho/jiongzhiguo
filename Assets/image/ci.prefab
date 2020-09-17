@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ci
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c7a4b4ee15890498f818262bca0312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures: []
+  textureRefs:
+  - {fileID: 2800000, guid: b50291577bbbfe247ae3a64f651e5fd9, type: 3}
+  spriteSheets: []
+  fonts: []
+  defaults:
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    anchor: 4
+    pad: 0
+    colliderType: 1
+  maxTextureSize: 1024
+  forceTextureSize: 0
+  forcedTextureWidth: 1024
+  forcedTextureHeight: 1024
+  textureCompression: 0
+  atlasWidth: 32
+  atlasHeight: 32
+  forceSquareAtlas: 0
+  atlasWastage: 20.703125
+  allowMultipleAtlases: 0
+  textureParams:
+  - name: ci
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b50291577bbbfe247ae3a64f651e5fd9, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 12
+    anchorY: 12
+    overrideMesh: {fileID: 0}
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 0
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 4
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 25, y: 25}
+    polyColliderIslands:
+    - connected: 1
+      points:
+      - {x: 7, y: 13}
+      - {x: 0, y: 25}
+      - {x: 25, y: 25}
+      - {x: 19, y: 12}
+      - {x: 13, y: 1}
+    polyColliderCap: 0
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+  spriteCollection: {fileID: 11400000, guid: 49e24aa204780ee409979fcbbae13251, type: 2}
+  premultipliedAlpha: 0
+  altMaterials:
+  - {fileID: 2100000, guid: 9d7ce9524a53b894ea4393c0f097311a, type: 2}
+  atlasMaterials:
+  - {fileID: 2100000, guid: 9d7ce9524a53b894ea4393c0f097311a, type: 2}
+  atlasTextures:
+  - {fileID: 2800000, guid: 4f6c3c7355e050145a925a6d067cf17f, type: 3}
+  useTk2dCamera: 0
+  targetHeight: 640
+  targetOrthoSize: 1
+  pixelPerfectPointSampled: 0
+  physicsDepth: 0.1
+  disableTrimming: 0
+  normalGenerationMode: 0
+  padAmount: -1
+  autoUpdate: 1
+  editorDisplayScale: 4.239999
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabAsset: 1
